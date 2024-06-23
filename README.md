@@ -8,14 +8,14 @@ prime no
 create repository by given registration id 
 
 # Create a Branch
-git clone https://github.com/ankitkapoor04/SYN-IN031.git
-cd SYN-IN031
-git checkout -b INT-1-Prime-number-identification
+1.git clone https://github.com/ankitkapoor04/SYN-IN031.git
+2.cd SYN-IN031
+3.git checkout -b INT-1-Prime-number-identification
 
 # Push Your Code
-git add .
-git commit -m "Add prime number identification program"
-git push origin INT-1-Prime-number-identification
+1.git add .
+2.git commit -m "Add prime number identification program"
+3.git push origin INT-1-Prime-number-identification
 
 # Add Collaborator
 1.Go to your repository on GitHub.
