@@ -11,6 +11,7 @@ public class PrimeNo {
         if (num <= 1) {
             isPrime = false;
         } else {
+            //Check from 2 to square root of number, if number is divisible by any i then it is not prime. Set isPrime to false and break out of loop.
             for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
                     isPrime = false;
